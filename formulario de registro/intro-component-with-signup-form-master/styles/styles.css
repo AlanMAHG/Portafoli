@@ -1,0 +1,81 @@
+body{
+    color: white;
+    font-size: 16px;
+    height: 100vh;
+    width: 100vw;  
+}
+main{
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 44%, 0.5);
+    height: 95%;
+    width: 100%;
+}
+main section{
+    height: 70%;
+    width: 100%;
+}
+.parrafoPrincipal{
+    font-size: .8rem;
+}
+.formTittle{
+    background-color: hsl(248, 32%, 49%);
+    font-size: .8rem;
+    text-align: center;
+    padding: 8px;
+    width: 90%;
+}
+.tittleForm{
+    width: 65%;
+}
+.formulario{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    height: 90%;
+    width: 90%;
+}
+.formBox{
+    height: 100%;
+    width: 65%;
+}
+input{
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: top 50% left 95%;
+    border-radius: 5px;
+}
+button{
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    border-style: outset;
+    border: 3px;
+}
+.errorMensagge{
+    margin: 0;
+    padding: 0;
+    color: red;
+    font-size: .5rem;
+    visibility: hidden;
+}
+.terminos{
+    color: rgb(158, 154, 154);
+    font-size: .5rem;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;  
+}
+main section div p a{
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    height: 5%;
+    width: 100%;
+}
+
